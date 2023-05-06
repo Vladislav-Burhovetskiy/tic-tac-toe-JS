@@ -1,0 +1,12 @@
+footer {
+  color: white;
+}
+
+footer p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+footer a {
+  color: var(--yellow);
+}

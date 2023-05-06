@@ -1,0 +1,26 @@
+button:hover {
+  cursor: pointer;
+  opacity: 90%;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.yellow {
+  color: var(--yellow);
+}
+
+.turquoise {
+  color: var(--turquoise);
+}
+
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+.border {
+  border: 1px solid rgba(211, 211, 211, 0.4) !important;
+}

@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+@import url(./_reset.css);
+@import url(./_normalize.css);
+@import url(./_vars.css);
+@import url(./_utils.css);
+@import url(./blocks/turn.css);
+@import url(./blocks/menu.css);
+@import url(./blocks/board.css);
+@import url(./blocks/score.css);
+@import url(./blocks/footer.css);
+@import url(./blocks/modal.css);
+
+body {
+  /* padding: 90px 20px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  grid-template-rows: 50px repeat(3, 80px) 60px;
+  gap: 10px;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    width: 410px;
+    grid-template-columns: repeat(3, 120px);
+    grid-template-rows: 50px repeat(3, 120px) 60px;
+    gap: 20px;
+  }
+}
+
+main {
+  margin-bottom: 50px;
+}
